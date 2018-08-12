@@ -1,0 +1,11 @@
+{
+  "title": {
+    "label": "Category Name",
+    "required": true
+  },
+  "url_friendly_name": {
+    "type": "url_slug",
+    "label": "URL Friendly Name",
+    "required": true
+  }
+}

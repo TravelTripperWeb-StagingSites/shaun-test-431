@@ -1,0 +1,22 @@
+<!-- Setup conditional statement here for pages on which a map should load. -->
+{% if map == true %}
+  <!-- Leaflet -->
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"></script>
+  <script src="{{ '/assets/js/leaflet-plugin.js' | absolute_url }}"></script>
+{% endif %}
+
+<!--[if gte IE 9]><!-->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!--<![endif]-->
+<!--[if IE 9]>
+  <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie9.js"></script>
+<![endif]-->
+<!--[if lte IE 8]>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/coliff/bootstrap-ie8/js/bootstrap-ie8.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.js"></script>
+<![endif]-->
+<script src="{{ '/assets/js/main.min.js' | absolute_url }}"></script>
+<script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>

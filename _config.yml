@@ -1,0 +1,103 @@
+# Site Settings
+title: "Bedrock"
+title_separator: "|"
+name: "Hotel Property Name"
+description: "Site default description."
+url: # the base hostname & protocol for your site e.g. "https://www.traveltripper.io"
+repository: "TravelTripperWeb/bedrock" # GitHub username/repo-name e.g. "TravelTripperWeb/bedrock"
+
+# Language Settings
+default_lang: 'en'
+languages: ['en']
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - Makefile
+  - media.json
+  - models.json
+  - node_modules
+  - old_media.json
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - sitemap.json
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - assets
+rsync_copy:
+  - _assets
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  load_paths:
+    - _sass
+  style: compressed
+
+# Outputting
+permalink: pretty
+timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# data_paginate:
+#   per_page: 5
+#   data: 'blog'
+#   path: 'blog/page:num'
+#   pagination_template: 'blog/index.html'
+#   sort_field: 'date'
+#   sort_reverse: true
+
+page_gen: #
+  # - data: 'attractions'
+  #   template: 'attraction-single'
+  #   dir: 'attractions'
+  # - data: 'blog'
+  #   template: 'post-single'
+  #   dir: 'blog'
+  # - data: 'events'
+  #   template: 'event-single'
+  #   dir: 'events'
+  # - data: 'offers'
+  #   template: 'offer-single'
+  #   dir: 'offers'
+  # - data: 'rooms'
+  #   template: 'room-single'
+  #   dir: 'rooms'
+  # - data: 'specials'
+  #   template: 'special-single'
+  #   dir: 'specials'

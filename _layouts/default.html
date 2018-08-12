@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="{{ site.active_lang | slice: 0,2 | default: "en" }}" class="no-js">
+
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
+
+<body>
+
+  {% if site.data.tracking.analytics.provider and page.analytics != false %}
+    {% case site.data.tracking.analytics.provider %}
+    {% when "gtm" %}
+      {% include analytics/gtm-body.html %}
+    {% endcase %}
+  {% endif %}
+
+  {% include nav-main.html %}
+
+  <div class="container">
+    {{ content }}
+  </div>
+
+  <footer class="footer">
+    {% include footer/custom.html %}
+    {% include footer.html %}
+  </footer>
+
+  {% include scripts.html %}
+
+</body>
+
+</html>

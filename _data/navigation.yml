@@ -1,0 +1,23 @@
+main:
+  - title: About
+    url: /about/
+  - title: Amenities
+    url: /amenities/
+  - title: Attractions
+    url: /attractions/
+  - title: Rooms
+    url: /rooms/
+  - title: Offers
+    url: /offers/
+  - title: Location
+    url: /location/
+  - title: Dining
+    url: /dining/
+  - title: Events
+    url: /events/
+  - title: Gallery
+    url: /gallery/
+  - title: Blog
+    url: /blog/
+  - title: Contact
+    url: /contact/

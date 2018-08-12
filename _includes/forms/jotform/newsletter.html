@@ -1,0 +1,14 @@
+<form action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.newsletter-id }}/" method="post" name="form_{{ site.data.forms.jotform.newsletter-id }}"
+    id="{{ site.data.forms.jotform.newsletter-id }}" accept-charset="utf-8">
+    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.newsletter-id }}">
+    <label>Email Address*</label>
+    <input type="email" id="input_3" name="q3_input3" placeholder="Your Email" required>
+    <button type="submit" id="input_2">Submit</button>
+    <input type="hidden" id="simple_spc" name="simple_spc" value="{{ site.data.forms.jotform.newsletter-id }}">
+
+    <script type="text/javascript">
+        document.getElementById("si" + "mple" + "_spc").value = "{{ site.data.forms.jotform.newsletter-id }}-{{ site.data.forms.jotform.newsletter-id }}";
+    </script>
+</form>
+
+<script type="text/javascript">JotForm.ownerView=true;</script>

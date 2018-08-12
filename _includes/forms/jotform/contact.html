@@ -1,0 +1,18 @@
+<form action="https://submit.jotform.me/submit/{{ site.data.forms.jotform.contact-id }}/" method="post" name="form_{{ site.data.forms.jotform.contact-id }}"
+    id="{{ site.data.forms.jotform.contact-id }}" accept-charset="utf-8">
+    <input type="hidden" name="formID" value="{{ site.data.forms.jotform.contact-id }}">
+    <label>Name*</label>
+    <input type="text" id="input_3" name="q3_input3" placeholder="Your Name" required>
+    <label>Email Address*</label>
+    <input type="email" id="input_4" name="q4_input4" placeholder="Your Email" required>
+    <label>Message</label>
+    <textarea id="input_5" name="q5_input5" cols="40" rows="8"></textarea>
+    <button type="submit" id="input_2">Submit</button>
+    <input type="hidden" id="simple_spc" name="simple_spc" value="{{ site.data.forms.jotform.contact-id }}">
+
+    <script type="text/javascript">
+        document.getElementById("si" + "mple" + "_spc").value = "{{ site.data.forms.jotform.contact-id }}-{{ site.data.forms.jotform.contact-id }}";
+    </script>
+</form>
+
+<script type="text/javascript">JotForm.ownerView=true;</script>

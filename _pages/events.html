@@ -1,0 +1,32 @@
+---
+layout: default
+title: Events
+meta_description:
+permalink: /events/
+meta_tags:
+  robots:
+---
+
+{% comment %}
+
+  Name:
+
+    Events Page
+
+  Description:
+
+    Display events[item] from a content model.
+
+  Usage:
+
+    Assign content model on page then display using [item].
+
+    eg. {% assign events = site.data._models.events %}
+        {% for item in events %}
+          {{ item.title }}
+          {{ item.location }}
+          {{ item.start_date | date: "%B %d %Y" }} - {{ item.end_date | date: "%B %d %Y" }}
+          {{ item.description | strip_html | truncatewords: 18 }}
+        {% endfor %}
+
+{% endcomment %}

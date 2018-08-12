@@ -1,0 +1,32 @@
+---
+layout: default
+title: Sitemap
+meta_description:
+permalink: /sitemap/
+meta_tags:
+  robots: noindex, follow
+---
+
+{% comment %}
+
+  Name:
+
+    Sitemap Page
+
+  Description:
+
+    Dynamically generated content from navigation.yml file.
+
+  Usage:
+
+    {% assign links = site.data.navigation.main %}
+
+    <ul>
+      {% for link in links %}
+        <li>
+          <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+{% endcomment %}

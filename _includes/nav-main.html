@@ -1,0 +1,17 @@
+{% assign links = site.data.navigation.main %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/">Bedrock</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+    {% for link in links %}
+      <li class="nav-item{% if page.url == link.url %} active{% endif%}">
+        <a class="nav-link" href="{{ link.url | absolute_url }}">{{ link.title }}{% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</nav>
