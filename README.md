@@ -1,6 +1,6 @@
-# [Bedrock Jekyll Template](https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock)
+# [Bedrock Jekyll Template](https://github.com/TravelTripperWeb-Sites/ttweb-bedrock)
 
-[![GitHub release](https://img.shields.io/badge/bedrock-v1.0.0-blue.svg)](https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock/releases)
+[![GitHub release](https://img.shields.io/badge/bedrock-v1.2.0-blue.svg)](https://github.com/TravelTripperWeb-Sites/ttweb-bedrock/releases)
 
 This is a Bootstrap 4 based Jekyll theme that is the base for all sites built for Travel Tripper web platform.
 
@@ -8,12 +8,12 @@ This is a Bootstrap 4 based Jekyll theme that is the base for all sites built fo
 
 ## Usage
 
-For detailed instructions on how to configure, customize, add content, and more read the [documentation](https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock/wiki).
+For detailed instructions on how to configure, customize, add content, and more read the [documentation](https://github.com/TravelTripperWeb-Sites/ttweb-bedrock/wiki).
 
 ## Quick Start
 
 ```
-git clone https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock.git bedrock
+git clone https://github.com/TravelTripperWeb-Sites/ttweb-bedrock.git bedrock
 cd bedrock
 npm install
 bundle install
@@ -24,7 +24,7 @@ bundle exec jekyll serve
 
 ## Contributing
 
-Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock/issues)? Then by all means [submit an issue](https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/TravelTripperWeb-Sites/ttweb-bedrock/issues)? Then by all means [submit an issue](https://github.com/TravelTripperWeb-Sites/ttweb-bedrock/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
 ### Pull Requests
 
