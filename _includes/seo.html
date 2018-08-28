@@ -45,10 +45,6 @@
   {% if site.data.social.og_image %}
     <meta name="twitter:image" content="{{ site.data.social.og_image | absolute_url }}">
   {% endif %}
-
-  {% if seo_author_twitter %}
-    <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
-  {% endif %}
 {% endif %}
 
 {% if site.data.social.facebook %}

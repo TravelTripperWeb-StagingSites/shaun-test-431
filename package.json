@@ -20,5 +20,9 @@
   },
   "scripts": {
     "uglify": "uglifyjs assets/js/_main.js -c -m -o assets/js/main.min.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.4.0"
   }
 }

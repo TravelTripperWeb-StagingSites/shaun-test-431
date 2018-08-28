@@ -4,7 +4,7 @@ title_separator: "|"
 name: "Hotel Property Name"
 description: "Site default description."
 url: # the base hostname & protocol for your site e.g. "https://www.traveltripper.io"
-repository: "TravelTripperWeb/bedrock" # GitHub username/repo-name e.g. "TravelTripperWeb/bedrock"
+repository: # GitHub username/repo-name e.g. "TravelTripperWeb/bedrock"
 
 # Language Settings
 default_lang: 'en'

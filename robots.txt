@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 # Disallowed and allowed directories and files
 
 User-agent: *
@@ -5,4 +9,4 @@ Disallow:
 
 # Define website sitemaps
 
-Sitemap:
+Sitemap: {{ site.url }}/sitemap.xml
