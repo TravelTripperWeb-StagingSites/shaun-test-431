@@ -1,0 +1,16 @@
+@mixin font-size($increment) {
+  $value: strip-unit($base-font-size);
+  @if $increment > 0 {
+    @for $i from 1 through $increment {
+      $value: ($value * $scale-factor);
+    }
+  }
+  @if $increment < 0 {
+    $increment: abs($increment);
+    @for $i from 1 through $increment {
+      $value: ($value / $scale-factor);
+    }
+  }
+
+  font-size: $value * 1rem;
+}

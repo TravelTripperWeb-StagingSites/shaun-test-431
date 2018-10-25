@@ -19,7 +19,7 @@
     "uglify-js": "^2.6.1"
   },
   "scripts": {
-    "uglify": "uglifyjs assets/js/_main.js -c -m -o assets/js/main.min.js"
+    "babel": "babel --presets es2015 assets/js/_main.js -o assets/js/main.min.js"
   },
   "dependencies": {
     "babel-eslint": "^9.0.0",

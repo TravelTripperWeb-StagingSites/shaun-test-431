@@ -1,7 +1,6 @@
-/*
-   Settings and other scripts
-   ========================================================================== */
-const fitImages = document.querySelectorAll("img.objectfit");
+window.onscroll = () => {
+  getSticky();
+};
 
 function getSticky() {
   const header = document.getElementById("js-navbar--main");
@@ -17,10 +16,7 @@ function getSticky() {
   }
 }
 
-window.onscroll = () => {
-  getSticky();
-};
-
+var fitImages = document.querySelectorAll("img.objectfit");
 objectFitImages(fitImages);
 
 document.ready(function() {
