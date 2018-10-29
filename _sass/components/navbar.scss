@@ -1,0 +1,135 @@
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: $navbar-padding-y $navbar-padding-x;
+  z-index: $navbar-z;
+  width: 100vw;
+
+  > .container,
+  > .container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-link {
+    color: $navbar-link-color;
+    font-size: $navbar-link-font-size;
+
+    &:hover {
+      color: $navbar-link-hover;
+      text-decoration: $navbar-link-decoration;
+    }
+  }
+
+  &.sticky,
+  &.nav--active {
+    background-color: $navbar-sticky-background;
+
+    .nav-link,
+    .nav--device a {
+      color: $navbar-sticky-link-color;
+
+      &:hover {
+        color: $navbar-sticky-link-hover;
+      }
+    }
+  }
+
+  .has-subnav {
+    position: relative;
+
+    &:hover {
+      a + .subnav {
+        display: block;
+      }
+    }
+  }
+
+  .subnav {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  .subnav-item {
+    background: $subnav-item-background;
+    display: block;
+    font-size: $navbar-link-font-size;
+    padding: $subnav-item-padding-y $subnav-item-padding-x;
+    white-space: nowrap;
+
+    &:hover {
+      background: $subnav-item-background-hover;
+      color: $subnav-item-color-hover;
+      text-decoration: $subnav-item-decoration;
+    }
+  }
+
+  &.is-fixed-bottom,
+  &.is-fixed-top {
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: $navbar-fixed-z;
+  }
+  &.is-fixed-bottom {
+    bottom: 0;
+  }
+  &.is-fixed-top {
+    top: 0;
+  }
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: $nav-link-padding-y $nav-link-padding-x;
+
+  &:hover,
+  &:focus {
+    text-decoration: $navbar-link-decoration;
+  }
+}
+
+.navbar__burger {
+  @include hamburger($navbar-burger-size, $navbar-burger-color);
+  margin-left: auto;
+  background-color: $navbar-burger-background;
+  display: block;
+}
+
+.nav--device {
+  background-color: $device-nav-background;
+  display: none;
+  position: relative;
+  padding: $device-nav-padding;
+  text-align: right;
+  width: 100%;
+  z-index: 1;
+
+  li {
+    padding: $device-nav-item-padding;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &.is-active {
+    display: block;
+  }
+}

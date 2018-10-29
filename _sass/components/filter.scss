@@ -1,0 +1,13 @@
+.filter--option {
+  color: $filter-nav-color;
+
+  &:hover {
+    color: $filter-nav-hover-color;
+    text-decoration: $filter-nav-hover-decoration;
+    cursor: pointer;
+  }
+}
+
+.filter-item.hidden {
+  display: none;
+}

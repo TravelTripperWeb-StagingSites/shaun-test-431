@@ -1,0 +1,40 @@
+.slider-control-arrows {
+  display: flex;
+  justify-content: center;
+
+  .slider-control-arrows__button {
+    &:first-child {
+      margin-right: $spacer;
+    }
+
+    &[aria-disabled="true"] {
+      visibility: hidden;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.slider-control-arrows__button:focus {
+  outline: none;
+}
+
+.slider-control-numbers {
+  font-family: $family-terciary;
+  padding-bottom: $spacer;
+  text-align: right;
+
+  li {
+    display: inline;
+    margin-right: $spacer;
+    padding-bottom: ($spacer / 3);
+
+    &:hover,
+    &.active {
+      border-bottom: 3px solid currentColor;
+      cursor: pointer;
+    }
+  }
+}
