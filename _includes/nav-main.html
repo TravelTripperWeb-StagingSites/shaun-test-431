@@ -1,33 +1,11 @@
 {% assign links = site.data.navigation.main %}
 
-<nav class="navbar is-fixed-top" id="js-navbar--main">
-  <div class="container-fluid p-0">
-    <a class="navbar-item" href="/">Bedrock</a>
-  <ul class="nav d-none d-lg-flex">
-    {% for link in links %}
-      <li class="nav-item{% if link.sublinks %} has-subnav{% endif %}">
-        <a class="nav-link{% if page.url == link.url %} active{% endif %}" href="{{ link.url | absolute_url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title }}{% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
-        <div class="subnav">
-          {% for sublink in link.sublinks %}
-              <a href="{{ sublink.url | absolute_url }}" class="subnav__item">{{ sublink.title }}</a>
-          {% endfor %}
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-  <div class="d-none d-lg-block">
-    <a href="#" role="button" class="btn btn-primary">Book Now</a>
-  </div>
-  <a role="button" aria-label="menu" aria-expanded="false" data-target="navMenu" class="navbar__burger d-lg-none">
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-    <span aria-hidden="true"></span>
-  </a>
-  <ul class="nav--device" navMenu>
-    {% for link in links %}
+<nav>
+  <ul>
+      {% for link in links %}
       <li>
-        <a class="navbar__item" href="{{ link.url | absolute_url }}">{{ link.title }}{% if page.url == link.url %}<span class="sr-only">(current)</span>{% endif%}</a>
+        <a href="{{ link.url | absolute_url }}">{{ link.title }}</a>
       </li>
-    {% endfor %}
+      {% endfor %}
   </ul>
 </nav>

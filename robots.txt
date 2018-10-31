@@ -1,5 +1,7 @@
 ---
 layout: null
+sitemap:
+  exclude: true
 ---
 
 # Disallowed and allowed directories and files
