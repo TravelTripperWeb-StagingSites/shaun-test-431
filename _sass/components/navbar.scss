@@ -19,10 +19,11 @@
   .nav-link {
     color: $navbar-link-color;
     font-size: $navbar-link-font-size;
+    text-decoration: $navbar-link-decoration;
 
     &:hover {
       color: $navbar-link-hover;
-      text-decoration: $navbar-link-decoration;
+      text-decoration: $navbar-link-hover-decoration;
     }
   }
 
@@ -33,9 +34,11 @@
     .nav-link,
     .nav--device a {
       color: $navbar-sticky-link-color;
+      text-decoration: $navbar-sticky-link-decoration;
 
       &:hover {
         color: $navbar-sticky-link-hover;
+        text-decoration: $navbar-sticky-link-hover-decoration;
       }
     }
   }
@@ -98,10 +101,11 @@
 .nav-link {
   display: block;
   padding: $nav-link-padding-y $nav-link-padding-x;
+  text-decoration: $navbar-link-decoration;
 
   &:hover,
   &:focus {
-    text-decoration: $navbar-link-decoration;
+    text-decoration: $navbar-link-hover-decoration;
   }
 }
 
