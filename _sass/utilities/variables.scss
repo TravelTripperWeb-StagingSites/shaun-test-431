@@ -73,6 +73,7 @@ $family-secondary: "Playfair Display", serif;
 $family-terciary: "Roboto", sans-serif;
 
 $base-font-color: $base-text-color;
+$base-body-font: $family-primary;
 $base-font-size: 1rem; //1rem = 16px
 $base-line-height: 1.5;
 $font-size-lg: ($base-font-size * 1.25) !default;
@@ -299,7 +300,10 @@ $navbar-link-hover: $link-hover-color;
 $navbar-transparent-link-color: $white;
 $navbar-transparent-link-hover: $primary;
 $navbar-link-decoration: none !default;
+$navbar-link-hover-decoration: underline !default;
 $navbar-sticky-link-color: $black;
+$navbar-sticky-link-decoration: none !default;
+$navbar-sticky-link-hover-decoration: underline !default;
 $navbar-sticky-link-hover: $primary;
 
 $nav-link-padding-y: $spacer !default;
