@@ -12,6 +12,7 @@ languages: ['en']
 
 # Reading Files
 include:
+  - _ttio_templates/bedrock/_permanent_pages
   - _pages
 exclude:
   - "*.sublime-project"
@@ -45,6 +46,9 @@ keep_files:
   - assets
 rsync_copy:
   - _assets
+  - _ttio_templates/bedrock/assets
+  - _ttio_templates/zom/assets
+  
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -101,3 +105,26 @@ page_gen: #
   # - data: 'specials'
   #   template: 'special-single'
   #   dir: 'specials'
+
+
+plugins_dir:
+  - _plugins-38
+  - _plugins
+
+i18n_dir:
+  - _ttio_templates/bedrock/_locales
+  - _locales
+
+layouts_dir:
+  - _ttio_templates/bedrock/_layouts
+  - _layouts
+  
+data_dir: 
+  - _ttio_templates/bedrock/_data
+  - _data
+  
+includes_dir:
+  - _includes
+  - _ttio_templates/bedrock/_includes
+  
+
