@@ -88,23 +88,20 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 page_gen: #
   # - data: 'attractions'
-  #   template: 'attraction-single'
+  #   template: 'attraction_layout'
   #   dir: 'attractions'
   # - data: 'blog'
-  #   template: 'post-single'
+  #   template: 'blog_layout'
   #   dir: 'blog'
   # - data: 'events'
-  #   template: 'event-single'
+  #   template: 'event_layout'
   #   dir: 'events'
   # - data: 'offers'
-  #   template: 'offer-single'
+  #   template: 'offer_layout'
   #   dir: 'offers'
-  # - data: 'rooms'
-  #   template: 'room-single'
-  #   dir: 'rooms'
-  # - data: 'specials'
-  #   template: 'special-single'
-  #   dir: 'specials'
+  - data: 'rooms'
+    template: 'room_layout'
+    dir: 'rooms'
 
 
 plugins_dir:
