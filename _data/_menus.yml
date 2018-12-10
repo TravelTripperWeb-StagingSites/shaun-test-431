@@ -1,0 +1,5 @@
+main:
+  items:
+    - page_id: index.html
+    - page_id: _pages/rooms.html
+    - page_id: _pages/about.html
