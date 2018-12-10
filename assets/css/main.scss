@@ -1,9 +1,15 @@
 ---
 ---
+{% comment %}
+This is initially set up to first pull in a custom varaibles file, then pull in the themeable components of ZOM css and then pull in any custom css for this project.
 
-@import "mixins/all";
-@import "utilities/all";
-@import "base/all";
-@import "elements/all";
-@import "layout/all";
-@import "components/all";
+If a large number of SASS includes are required for this project, consider using the alternative setup:
+1. Remove this /assets/css/main.scss file completely
+2. Modify /_sass/all.scss to include whatever additional components you need
+3. Run sass manually e.g. via sass --watch _sass/all.scss:assets/css/main.css  --style compressed
+4. Commit /assets/css/main.css to the repository
+TODO: update the comman line option in step3 above?
+
+{% endcomment %}
+
+@import "all";

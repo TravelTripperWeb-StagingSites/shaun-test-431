@@ -8,7 +8,7 @@ repository: # GitHub username/repo-name e.g. "TravelTripperWeb/bedrock"
 
 # Language Settings
 default_lang: 'en'
-languages: ['en']
+languages: ['en', 'es']
 
 # Reading Files
 include:
@@ -44,6 +44,8 @@ exclude:
 keep_files:
   - .git
   - assets
+  - ttio_templates/bedrock/assets
+  - ttio_templates/zom/assets
 rsync_copy:
   - _assets
   - _ttio_templates/bedrock/assets
