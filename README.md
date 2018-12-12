@@ -20,3 +20,10 @@ bundle install
 npm run start
 ```
 
+If you're doing template (bedrock, zom, etc) development, do the above for setup, but instead run 
+```
+npm run template-dev
+```
+to get rebuilds/refreshes based on changes to files in the plugins and templates folder in addition to standard folders
+
+
