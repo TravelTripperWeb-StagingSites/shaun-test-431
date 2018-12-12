@@ -1,5 +1,28 @@
 main:
   items:
     - page_id: index.html
+      label_localized: Home
     - page_id: _pages/rooms.html
+      label_localized:
+        en: Rooms
+        es: Habitaciones
     - page_id: _pages/about.html
+    - url: https://www.google.com
+      label: google
+    - url_localized:
+        en: https://www.google.com
+        es: https://www.google.es
+      label_localized:
+        en: g-US
+        es: g-ES  
+      target: _NEW
+    - label_localized: 
+        en: Group
+        es: Group (ES)
+      items:
+        - page_id: _pages/about.html
+        - url: /test/
+          label_localized:
+            en: Test
+            es: Prueba
+    
