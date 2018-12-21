@@ -19,6 +19,7 @@ main:
     - label_localized: 
         en: Group
         es: Group (ES)
+      folder: true
       items:
         - page_id: _pages/about.html
         - url: /test/
