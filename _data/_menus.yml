@@ -1,7 +1,10 @@
 main:
+  depth: 2
+  name: Top Menu
   items:
     - page_id: index.html
-      label_localized: Home
+      label_localized: 
+        en: Home
     - page_id: _pages/rooms.html
       label_localized:
         en: Rooms
