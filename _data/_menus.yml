@@ -9,9 +9,8 @@ main:
       label_localized:
         en: Rooms
         es: Habitaciones
+    - page_id: _pages/offers.html
     - page_id: _pages/about.html
-    - url: https://www.google.com
-      label: google
     - url_localized:
         en: https://www.google.com
         es: https://www.google.es
