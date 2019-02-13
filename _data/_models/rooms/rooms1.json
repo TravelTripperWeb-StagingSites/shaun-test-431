@@ -1,0 +1,57 @@
+{
+  "size": "300sq ft / 27m",
+  "reztrip_room_id": "F1K",
+  "guest_size_max": 4,
+  "bed_arrangement": "1 King",
+  "room_category": "Standard",
+  "view": "Pool View",
+  "description": "<h3>Room Features</h3>\n<p>The Superior room offers peaceful interior views and elegant three-fixture bathrooms. These 300 square foot rooms envelop guests in a discreet, peaceful retreat and are situated on floors 4 to 14.&nbsp;</p>\n<h3>Bed &amp; Bath Experience</h3>\n<p>Superior Rooms contain a king sized bed with a nightstand, electronic safe, Bose Wave studio featuring Bluetooth connectivity and alarm clock. An executive writing desk and chair is located on the far side of the room. &nbsp;An armchair with side table, 40&rsquo; wall mounted TV and console with minibar is located across the bed. &nbsp;The Turkish marble clad bathroom features a pedestal sink, glass enclosed shower, plush bathrobes and towels.</p>",
+  "short_description": "The Superior room offers peaceful interior views and elegant three-fixture bathrooms. These 300 square foot rooms envelop guests in a discreet, peaceful retreat and are situated on floors 4 to 14. ",
+  "images": [
+    {
+      "name": "Superior King Room",
+      "file_name": "Superior King Room.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/Superior_King_Room.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-05-15-094825",
+      "file_type": "image/jpeg",
+      "width": 4262,
+      "height": 6419,
+      "file_size": 13941230,
+      "url_large": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/large_Superior_King_Room.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/medium_Superior_King_Room.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/small_Superior_King_Room.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/xsmall_Superior_King_Room.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/thumb_Superior_King_Room.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/Superior_King_Room.jpg",
+      "alt": "Superior King Room",
+      "caption": ""
+    },
+    {
+      "name": "Superior King Room",
+      "file_name": "Superior King Room.jpg",
+      "url": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/Superior_King_Room.jpg",
+      "tags": "",
+      "description": "",
+      "date_added": "2018-05-15-094825",
+      "file_type": "image/jpeg",
+      "width": 4262,
+      "height": 6419,
+      "file_size": 13941230,
+      "url_large": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/large_Superior_King_Room.jpg",
+      "url_medium": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/medium_Superior_King_Room.jpg",
+      "url_small": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/small_Superior_King_Room.jpg",
+      "url_xsmall": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/xsmall_Superior_King_Room.jpg",
+      "url_thumb": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/thumb_Superior_King_Room.jpg",
+      "path": "//cdn.traveltripper.io/site-assets/413_380_15000/media/2018-05-15-094825/Superior_King_Room.jpg",
+      "alt": "Superior King Room",
+      "caption": ""
+    }
+  ],
+  "amenities": [
+    "room_amenities1"
+  ],
+  "name": "Superior King Room Interior View",
+  "order": 0
+}

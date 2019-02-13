@@ -1,6 +1,10 @@
-@import '../_ttio_templates/zom/sass/utilities/functions';
-@import '../_ttio_templates/zom/sass/variables';
-@import '_variables';
-@import '../_ttio_templates/zom/sass/main-customizable';
-@import './custom/all';
+@import '_variables'; // Site-specific overrides
+
+@import '../_ttio_templates/bedrock/_themes/stewart/sass/variables'; // Remove for a 'blank' template, or switch to another theme
+
+@import '../_ttio_templates/zom/sass/main'; // build out ZOM
+
+@import './_ttio_templates/bedrock/_themes/stewart/sass/all'; // Remove for a 'blank' template, or switch to another theme
+
+@import './custom/all'; // Site-specific extras
 
