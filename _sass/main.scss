@@ -2,11 +2,11 @@
 
 @import '_variables'; // Site-specific overrides
 
-@import '../_ttio_templates/bedrock/_themes/stewart/sass/variables'; // Remove for a 'blank' template, or switch to another theme
+//@import '../_ttio_templates/bedrock/_themes/stewart/sass/variables'; // Uncomment for a themed template
 
 @import '../_ttio_templates/bedrock/_sass/main'; // build out ZOM Core and Bedrock components
 
-@import '../_ttio_templates/bedrock/_themes/stewart/sass/all'; // Remove for a 'blank' template, or switch to another theme
+//@import '../_ttio_templates/bedrock/_themes/stewart/sass/all'; // Uncomment for a themed template
 
 @import './custom/all'; // Site-specific extras
 
