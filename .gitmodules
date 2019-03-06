@@ -3,7 +3,7 @@
 	url = https://github.com/TravelTripperWeb/cms-jekyll-3-8-plugins.git
 [submodule "_ttio_templates/bedrock"]
 	path = _ttio_templates/bedrock
-	url = https://github.com/TravelTripperWeb-Sites/_ttio_templates-bedrock.git
+	url = https://github.com/TravelTripperWeb/_ttio_templates-bedrock.git
 [submodule "_ttio_templates/zom"]
 	path = _ttio_templates/zom
-	url = https://github.com/TravelTripperWeb-Sites/_ttio_templates-zom
+	url = https://github.com/TravelTripperWeb/_ttio_templates-zom
