@@ -98,12 +98,14 @@ page_gen: #
   # - data: 'events'
   #   template: 'event_layout'
   #   dir: 'events'
-  # - data: 'offers'
-  #   template: 'offer_layout'
-  #   dir: 'offers'
+  - data: 'offers'
+    template: 'offer_layout'
+    dir: 'offers'
+    title_field: name
   - data: 'rooms'
     template: 'room_layout'
     dir: 'rooms'
+    title_field: name
 
 
 plugins_dir:
