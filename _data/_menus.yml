@@ -1,5 +1,5 @@
 main:
-  depth: 1
+  depth: 2
   name: Top Menu
   items:
     - page_id: index.html
