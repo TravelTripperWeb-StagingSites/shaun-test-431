@@ -13,12 +13,11 @@ languages: ['en', 'es']
 # Reading Files
 include:
   - _ttio_templates
-  - _ttio_templates/bedrock
-  - _ttio_templates/bedrock/permanent_pages
   - _pages
 exclude:
   - _ttio_templates/zom
   - _ttio_templates/bedrock/assets
+  - _ttio_templates/bedrock/node_modules
   - _ttio_templates/bedrock/*.md
   - _ttio_templates/bedrock/*.json
   - "*.sublime-project"
