@@ -18,8 +18,10 @@ main:
   - folder: true
     label_localized:
       en: folderTest
-  - folder: false
-    url_localized:
-      en: "/link"
-    label_localized:
-      en: externallink
+    items:
+    - folder: false
+      url_localized:
+        en: "/link"
+      label_localized:
+        en: externallink
+      items: 
