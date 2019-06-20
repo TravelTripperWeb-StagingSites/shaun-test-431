@@ -1,0 +1,8 @@
+{
+    "category": {
+        "type": "model",
+        "display_field": "title",
+        "model_name": "post_categories",
+        "can_create": true
+    }
+}
