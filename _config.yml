@@ -1,70 +1,63 @@
-# Site Settings
-title: "Bedrock"
+---
+title: Bedrock
 title_separator: "|"
-name: "Hotel Property Name"
-description: "Site default description."
-url: # the base hostname & protocol for your site e.g. "https://www.traveltripper.io"
-repository: # GitHub username/repo-name e.g. "TravelTripperWeb/bedrock"
-
-# Language Settings
-default_lang: 'en'
-languages: ['en', 'es']
-
-# Reading Files
+name: Hotel Property Name
+description: Site default description.
+url: 
+repository: 
+default_lang: en
+languages:
+- en
+- es
 include:
-  - _ttio_templates
-  - _pages
+- _ttio_templates
+- _pages
 exclude:
-  - _ttio_templates/zom
-  - _ttio_templates/bedrock/assets
-  - _ttio_templates/bedrock/node_modules
-  - _ttio_templates/bedrock/*.md
-  - _ttio_templates/bedrock/*.json
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - Makefile
-  - media.json
-  - models.json
-  - node_modules
-  - old_media.json
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - sitemap.json
-  - tmp
-  - vendor
+- _ttio_templates/zom
+- _ttio_templates/bedrock/assets
+- _ttio_templates/bedrock/node_modules
+- _ttio_templates/bedrock/*.md
+- _ttio_templates/bedrock/*.json
+- "*.sublime-project"
+- "*.sublime-workspace"
+- ".asset-cache"
+- ".bundle"
+- ".jekyll-assets-cache"
+- ".sass-cache"
+- Capfile
+- CHANGELOG
+- config
+- Gemfile
+- Gruntfile.js
+- gulpfile.js
+- LICENSE
+- log
+- Makefile
+- media.json
+- models.json
+- node_modules
+- old_media.json
+- package.json
+- package-lock.json
+- Rakefile
+- README
+- sitemap.json
+- tmp
+- vendor
 keep_files:
-  - .git
-  - assets
-  - ttio_templates/bedrock/assets
-  - ttio_templates/zom/assets
+- ".git"
+- assets
+- ttio_templates/bedrock/assets
+- ttio_templates/zom/assets
 rsync_copy:
-  - _assets
-  - _ttio_templates/bedrock/assets
-  - _ttio_templates/zom/assets
-  
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# Conversion
+- _assets
+- _ttio_templates/bedrock/assets
+- _ttio_templates/zom/assets
+encoding: utf-8
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 markdown: kramdown
 excerpt_separator: "\n\n"
 incremental: false
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -74,63 +67,33 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
-# Sass/SCSS
 sass:
   load_paths:
-    - _sass
+  - _sass
   style: compressed
-
-# Outputting
 permalink: pretty
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-# data_paginate:
-#   per_page: 5
-#   data: 'blog'
-#   path: 'blog/page:num'
-#   pagination_template: 'blog/index.html'
-#   sort_field: 'date'
-#   sort_reverse: true
-
-page_gen: #
-  # - data: 'attractions'
-  #   template: 'attraction_layout'
-  #   dir: 'attractions'
-  # - data: 'blog'
-  #   template: 'blog_layout'
-  #   dir: 'blog'
-  # - data: 'events'
-  #   template: 'event_layout'
-  #   dir: 'events'
-  - data: 'offers'
-    template: 'offer_layout'
-    dir: 'offers'
-    title_field: name
-  - data: 'rooms'
-    template: 'room_layout'
-    dir: 'rooms'
-    title_field: name
-
-
+timezone: 
+page_gen:
+- data: offers
+  template: offer_layout
+  dir: offers
+  title_field: name
+- data: rooms
+  template: room_layout
+  dir: rooms
+  title_field: name
 plugins_dir:
-  - _plugins-38
-  - _plugins
-
+- _plugins-38
+- _plugins
 i18n_dir:
-  - _ttio_templates/bedrock/_locales
-  - _locales
-
+- _ttio_templates/bedrock/_locales
+- _locales
 layouts_dir:
-  - _ttio_templates/bedrock/_layouts
-  - _layouts
-  
-data_dir: 
-  - _ttio_templates/bedrock/_data
-  - _data
-  
+- _ttio_templates/bedrock/_layouts
+- _layouts
+data_dir:
+- _ttio_templates/bedrock/_data
+- _data
 includes_dir:
-  - _includes
-  - _ttio_templates/bedrock/_includes
-  
-
+- _includes
+- _ttio_templates/bedrock/_includes

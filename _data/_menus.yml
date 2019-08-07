@@ -1,28 +1,27 @@
+---
 main:
   depth: 2
   name: Top Menu
   items:
-    - page_id: index.html
-    - page_id: _pages/about.html
-    - page_id: _pages/rooms.html
-    - page_id: _pages/offers.html
-    - page_id: _pages/gallery.html
-    - page_id: _pages/contact.html
-    # - url_localized:
-    #     en: https://www.google.com
-    #     es: https://www.google.es
-    #   label_localized:
-    #     en: g-US
-    #     es: g-ES
-    #   target: _NEW
-    # - label_localized:
-    #     en: Group
-    #     es: Group (ES)
-    #   folder: true
-    #   items:
-    #     - page_id: _pages/about.html
-    #     - url: /test/
-    #       label_localized:
-    #         en: Test
-    #         es: Prueba
-    
+  - page_id: _pages/about.html
+    items: 
+  - page_id: index.html
+    items: 
+  - page_id: _pages/rooms.html
+    items: 
+  - page_id: _pages/offers.html
+    items: 
+  - page_id: _pages/gallery.html
+    items: 
+  - page_id: _pages/contact.html
+    items: 
+  - folder: true
+    label_localized:
+      en: folderTest
+    items:
+    - folder: false
+      url_localized:
+        en: "/link"
+      label_localized:
+        en: externallink
+      items: 
